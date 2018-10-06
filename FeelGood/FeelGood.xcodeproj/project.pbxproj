@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5220C0CA2168F50500003703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0C92168F50500003703 /* AppDelegate.swift */; };
+		5220C0CC2168F50500003703 /* ListOfThoughtsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0CB2168F50500003703 /* ListOfThoughtsVC.swift */; };
+		5220C0D12168F50600003703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5220C0D02168F50600003703 /* Assets.xcassets */; };
+		5220C0D42168F50600003703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5220C0D22168F50600003703 /* LaunchScreen.storyboard */; };
+		5220C0DF2168F50600003703 /* FeelGoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0DE2168F50600003703 /* FeelGoodTests.swift */; };
+		5220C0EA2168F50600003703 /* FeelGoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0E92168F50600003703 /* FeelGoodUITests.swift */; };
+		9E72B953D96EF8E0BBAA9A56 /* Pods_FeelGoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC98429F800D53EF5E9BD3F /* Pods_FeelGoodTests.framework */; };
+		D061FBB4FC4785E3DB5619C9 /* Pods_FeelGoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E8C1B1BC46209A7957318 /* Pods_FeelGoodUITests.framework */; };
+		EBF5BAC6920F3AC6E8448EF1 /* Pods_FeelGood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05477E8BA2C2C552AE46E417 /* Pods_FeelGood.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5220C0DB2168F50600003703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5220C0BE2168F50500003703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5220C0C52168F50500003703;
+			remoteInfo = FeelGood;
+		};
+		5220C0E62168F50600003703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5220C0BE2168F50500003703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5220C0C52168F50500003703;
+			remoteInfo = FeelGood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05477E8BA2C2C552AE46E417 /* Pods_FeelGood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelGood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FFEFF0146D5F90261EE861 /* Pods-FeelGoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelGoodTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelGoodTests/Pods-FeelGoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		48741A8B0E2E2141875C76DD /* Pods-FeelGood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelGood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelGood/Pods-FeelGood.debug.xcconfig"; sourceTree = "<group>"; };
+		4F211E3620BFAF73F34AF518 /* Pods-FeelGoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelGoodUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelGoodUITests/Pods-FeelGoodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5220C0C62168F50500003703 /* FeelGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5220C0C92168F50500003703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5220C0CB2168F50500003703 /* ListOfThoughtsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfThoughtsVC.swift; sourceTree = "<group>"; };
+		5220C0D02168F50600003703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5220C0D32168F50600003703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5220C0D52168F50600003703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5220C0DA2168F50600003703 /* FeelGoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelGoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5220C0DE2168F50600003703 /* FeelGoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelGoodTests.swift; sourceTree = "<group>"; };
+		5220C0E02168F50600003703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5220C0E52168F50600003703 /* FeelGoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelGoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5220C0E92168F50600003703 /* FeelGoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelGoodUITests.swift; sourceTree = "<group>"; };
+		5220C0EB2168F50600003703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E96C1E2BE58B2B08E461459 /* Pods-FeelGoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelGoodTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelGoodTests/Pods-FeelGoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		986E8C1B1BC46209A7957318 /* Pods_FeelGoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelGoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A240EA82F5AD1B47021EDFB6 /* Pods-FeelGoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelGoodUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelGoodUITests/Pods-FeelGoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E95A6628F9C392A351119797 /* Pods-FeelGood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelGood.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelGood/Pods-FeelGood.release.xcconfig"; sourceTree = "<group>"; };
+		FFC98429F800D53EF5E9BD3F /* Pods_FeelGoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelGoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5220C0C32168F50500003703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF5BAC6920F3AC6E8448EF1 /* Pods_FeelGood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220C0D72168F50600003703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E72B953D96EF8E0BBAA9A56 /* Pods_FeelGoodTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220C0E22168F50600003703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D061FBB4FC4785E3DB5619C9 /* Pods_FeelGoodUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ECFA48CE82303AAFA87DBD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05477E8BA2C2C552AE46E417 /* Pods_FeelGood.framework */,
+				FFC98429F800D53EF5E9BD3F /* Pods_FeelGoodTests.framework */,
+				986E8C1B1BC46209A7957318 /* Pods_FeelGoodUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5220C0BD2168F50500003703 = {
+			isa = PBXGroup;
+			children = (
+				5220C0C82168F50500003703 /* FeelGood */,
+				5220C0DD2168F50600003703 /* FeelGoodTests */,
+				5220C0E82168F50600003703 /* FeelGoodUITests */,
+				5220C0C72168F50500003703 /* Products */,
+				76333407156DC1A8D039536F /* Pods */,
+				4ECFA48CE82303AAFA87DBD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5220C0C72168F50500003703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5220C0C62168F50500003703 /* FeelGood.app */,
+				5220C0DA2168F50600003703 /* FeelGoodTests.xctest */,
+				5220C0E52168F50600003703 /* FeelGoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5220C0C82168F50500003703 /* FeelGood */ = {
+			isa = PBXGroup;
+			children = (
+				5220C0C92168F50500003703 /* AppDelegate.swift */,
+				5220C0CB2168F50500003703 /* ListOfThoughtsVC.swift */,
+				5220C0D02168F50600003703 /* Assets.xcassets */,
+				5220C0D22168F50600003703 /* LaunchScreen.storyboard */,
+				5220C0D52168F50600003703 /* Info.plist */,
+			);
+			path = FeelGood;
+			sourceTree = "<group>";
+		};
+		5220C0DD2168F50600003703 /* FeelGoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				5220C0DE2168F50600003703 /* FeelGoodTests.swift */,
+				5220C0E02168F50600003703 /* Info.plist */,
+			);
+			path = FeelGoodTests;
+			sourceTree = "<group>";
+		};
+		5220C0E82168F50600003703 /* FeelGoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5220C0E92168F50600003703 /* FeelGoodUITests.swift */,
+				5220C0EB2168F50600003703 /* Info.plist */,
+			);
+			path = FeelGoodUITests;
+			sourceTree = "<group>";
+		};
+		76333407156DC1A8D039536F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48741A8B0E2E2141875C76DD /* Pods-FeelGood.debug.xcconfig */,
+				E95A6628F9C392A351119797 /* Pods-FeelGood.release.xcconfig */,
+				8E96C1E2BE58B2B08E461459 /* Pods-FeelGoodTests.debug.xcconfig */,
+				42FFEFF0146D5F90261EE861 /* Pods-FeelGoodTests.release.xcconfig */,
+				A240EA82F5AD1B47021EDFB6 /* Pods-FeelGoodUITests.debug.xcconfig */,
+				4F211E3620BFAF73F34AF518 /* Pods-FeelGoodUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5220C0C52168F50500003703 /* FeelGood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5220C0EE2168F50600003703 /* Build configuration list for PBXNativeTarget "FeelGood" */;
+			buildPhases = (
+				92C0525895EF90D10E4D2689 /* [CP] Check Pods Manifest.lock */,
+				5220C0C22168F50500003703 /* Sources */,
+				5220C0C32168F50500003703 /* Frameworks */,
+				5220C0C42168F50500003703 /* Resources */,
+				78AEB9FC80042F99447C9E30 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeelGood;
+			productName = FeelGood;
+			productReference = 5220C0C62168F50500003703 /* FeelGood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5220C0D92168F50600003703 /* FeelGoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5220C0F12168F50600003703 /* Build configuration list for PBXNativeTarget "FeelGoodTests" */;
+			buildPhases = (
+				8BDDC5F5496C99B79367C917 /* [CP] Check Pods Manifest.lock */,
+				5220C0D62168F50600003703 /* Sources */,
+				5220C0D72168F50600003703 /* Frameworks */,
+				5220C0D82168F50600003703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5220C0DC2168F50600003703 /* PBXTargetDependency */,
+			);
+			name = FeelGoodTests;
+			productName = FeelGoodTests;
+			productReference = 5220C0DA2168F50600003703 /* FeelGoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5220C0E42168F50600003703 /* FeelGoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5220C0F42168F50600003703 /* Build configuration list for PBXNativeTarget "FeelGoodUITests" */;
+			buildPhases = (
+				81DF3AE810EA0FA0FA3B3992 /* [CP] Check Pods Manifest.lock */,
+				5220C0E12168F50600003703 /* Sources */,
+				5220C0E22168F50600003703 /* Frameworks */,
+				5220C0E32168F50600003703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5220C0E72168F50600003703 /* PBXTargetDependency */,
+			);
+			name = FeelGoodUITests;
+			productName = FeelGoodUITests;
+			productReference = 5220C0E52168F50600003703 /* FeelGoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5220C0BE2168F50500003703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "John Bogil";
+				TargetAttributes = {
+					5220C0C52168F50500003703 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5220C0D92168F50600003703 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5220C0C52168F50500003703;
+					};
+					5220C0E42168F50600003703 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5220C0C52168F50500003703;
+					};
+				};
+			};
+			buildConfigurationList = 5220C0C12168F50500003703 /* Build configuration list for PBXProject "FeelGood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5220C0BD2168F50500003703;
+			productRefGroup = 5220C0C72168F50500003703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5220C0C52168F50500003703 /* FeelGood */,
+				5220C0D92168F50600003703 /* FeelGoodTests */,
+				5220C0E42168F50600003703 /* FeelGoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5220C0C42168F50500003703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220C0D42168F50600003703 /* LaunchScreen.storyboard in Resources */,
+				5220C0D12168F50600003703 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220C0D82168F50600003703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220C0E32168F50600003703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78AEB9FC80042F99447C9E30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FeelGood/Pods-FeelGood-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Anchors/Anchors.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Anchors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeelGood/Pods-FeelGood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81DF3AE810EA0FA0FA3B3992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelGoodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BDDC5F5496C99B79367C917 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelGoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92C0525895EF90D10E4D2689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelGood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5220C0C22168F50500003703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220C0CC2168F50500003703 /* ListOfThoughtsVC.swift in Sources */,
+				5220C0CA2168F50500003703 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220C0D62168F50600003703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220C0DF2168F50600003703 /* FeelGoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5220C0E12168F50600003703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220C0EA2168F50600003703 /* FeelGoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5220C0DC2168F50600003703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5220C0C52168F50500003703 /* FeelGood */;
+			targetProxy = 5220C0DB2168F50600003703 /* PBXContainerItemProxy */;
+		};
+		5220C0E72168F50600003703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5220C0C52168F50500003703 /* FeelGood */;
+			targetProxy = 5220C0E62168F50600003703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5220C0D22168F50600003703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5220C0D32168F50600003703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5220C0EC2168F50600003703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5220C0ED2168F50600003703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5220C0EF2168F50600003703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48741A8B0E2E2141875C76DD /* Pods-FeelGood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y3GGL46D2;
+				INFOPLIST_FILE = FeelGood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnbogil.FeelGood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5220C0F02168F50600003703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95A6628F9C392A351119797 /* Pods-FeelGood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y3GGL46D2;
+				INFOPLIST_FILE = FeelGood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnbogil.FeelGood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5220C0F22168F50600003703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E96C1E2BE58B2B08E461459 /* Pods-FeelGoodTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeelGoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnbogil.FeelGoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeelGood.app/FeelGood";
+			};
+			name = Debug;
+		};
+		5220C0F32168F50600003703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FFEFF0146D5F90261EE861 /* Pods-FeelGoodTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeelGoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnbogil.FeelGoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeelGood.app/FeelGood";
+			};
+			name = Release;
+		};
+		5220C0F52168F50600003703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A240EA82F5AD1B47021EDFB6 /* Pods-FeelGoodUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeelGoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnbogil.FeelGoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeelGood;
+			};
+			name = Debug;
+		};
+		5220C0F62168F50600003703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F211E3620BFAF73F34AF518 /* Pods-FeelGoodUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FeelGoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnbogil.FeelGoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeelGood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5220C0C12168F50500003703 /* Build configuration list for PBXProject "FeelGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5220C0EC2168F50600003703 /* Debug */,
+				5220C0ED2168F50600003703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5220C0EE2168F50600003703 /* Build configuration list for PBXNativeTarget "FeelGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5220C0EF2168F50600003703 /* Debug */,
+				5220C0F02168F50600003703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5220C0F12168F50600003703 /* Build configuration list for PBXNativeTarget "FeelGoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5220C0F22168F50600003703 /* Debug */,
+				5220C0F32168F50600003703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5220C0F42168F50600003703 /* Build configuration list for PBXNativeTarget "FeelGoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5220C0F52168F50600003703 /* Debug */,
+				5220C0F62168F50600003703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5220C0BE2168F50500003703 /* Project object */;
+}

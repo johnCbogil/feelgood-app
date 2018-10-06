@@ -1,0 +1,6 @@
+framework module Pods_FeelGood {
+  umbrella header "Pods-FeelGood-umbrella.h"
+
+  export *
+  module * { export * }
+}
