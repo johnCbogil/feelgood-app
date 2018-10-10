@@ -9,6 +9,9 @@ target 'FeelGood' do
   pod 'Anchors'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxSwiftExt'
+  pod 'RxOptional'
+  pod 'DefaultsKit'
   
   target 'FeelGoodTests' do
     inherit! :search_paths

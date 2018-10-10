@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window = UIWindow()
         self.window?.makeKeyAndVisible()
-        window?.rootViewController = ListOfThoughtsVC()
+        let navCtrl = UINavigationController(rootViewController: ListOfThoughtsVC())
+        window?.rootViewController = navCtrl
 
         return true
     }
