@@ -12,6 +12,8 @@ target 'FeelGood' do
   pod 'RxSwiftExt'
   pod 'RxOptional'
   pod 'DefaultsKit'
+  pod 'Reveal-SDK'
+  pod 'SwiftLint'
   
   target 'FeelGoodTests' do
     inherit! :search_paths

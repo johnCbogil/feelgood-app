@@ -1,6 +1,7 @@
 PODS:
   - Anchors (2.3.0)
   - DefaultsKit (0.0.9)
+  - Reveal-SDK (18)
   - RxCocoa (4.3.1):
     - RxSwift (~> 4.0)
   - RxOptional (3.5.0):
@@ -11,32 +12,39 @@ PODS:
     - RxSwiftExt/Core (= 3.3.0)
   - RxSwiftExt/Core (3.3.0):
     - RxSwift (~> 4.0)
+  - SwiftLint (0.27.0)
 
 DEPENDENCIES:
   - Anchors
   - DefaultsKit
+  - Reveal-SDK
   - RxCocoa
   - RxOptional
   - RxSwift
   - RxSwiftExt
+  - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Anchors
     - DefaultsKit
+    - Reveal-SDK
     - RxCocoa
     - RxOptional
     - RxSwift
     - RxSwiftExt
+    - SwiftLint
 
 SPEC CHECKSUMS:
   Anchors: 000f9206b6f898ac9c021e4cf537161efb0d9ec3
   DefaultsKit: e47d11c54a53c66f9e5c65a1992dead90bc7144f
+  Reveal-SDK: cce79388da3fd0bbb6ae19d769b906cfc3a33a89
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
   RxOptional: bd32ff8ca9df4177683d56ffeb618a9d4d5d5cad
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
   RxSwiftExt: 81afb48ab0602f503147417baeb3989d64c7687d
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
 
-PODFILE CHECKSUM: d77ce204c0b972d9fa46733bda29fdd6446b81d4
+PODFILE CHECKSUM: 0bf77b0ad98fc81bebedcee8f9aa492448753897
 
 COCOAPODS: 1.5.3

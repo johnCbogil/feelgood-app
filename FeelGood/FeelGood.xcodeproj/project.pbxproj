@@ -10,13 +10,15 @@
 		5220C0CA2168F50500003703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0C92168F50500003703 /* AppDelegate.swift */; };
 		5220C0CC2168F50500003703 /* ListOfThoughtsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0CB2168F50500003703 /* ListOfThoughtsVC.swift */; };
 		5220C0D12168F50600003703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5220C0D02168F50600003703 /* Assets.xcassets */; };
-		5220C0D42168F50600003703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5220C0D22168F50600003703 /* LaunchScreen.storyboard */; };
 		5220C0DF2168F50600003703 /* FeelGoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0DE2168F50600003703 /* FeelGoodTests.swift */; };
 		5220C0EA2168F50600003703 /* FeelGoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0E92168F50600003703 /* FeelGoodUITests.swift */; };
 		5220C0F82168FAF500003703 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0F72168FAF500003703 /* UIKit+Extensions.swift */; };
 		5220C0FA2168FC4200003703 /* ThoughtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0F92168FC4200003703 /* ThoughtCell.swift */; };
 		5220C0FC2168FFD200003703 /* ListOfThoughtsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220C0FB2168FFD200003703 /* ListOfThoughtsVM.swift */; };
+		52A7E56321726CC800E0888C /* ThoughtVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A7E56221726CC800E0888C /* ThoughtVM.swift */; };
 		52D3671F216EC24000433468 /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3671E216EC24000433468 /* Thought.swift */; };
+		52D36721216EC66D00433468 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D36720216EC66D00433468 /* Defaults.swift */; };
+		52E97AD921700D0500154EB9 /* ThoughtDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E97AD821700D0500154EB9 /* ThoughtDetailVC.swift */; };
 		9E72B953D96EF8E0BBAA9A56 /* Pods_FeelGoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC98429F800D53EF5E9BD3F /* Pods_FeelGoodTests.framework */; };
 		D061FBB4FC4785E3DB5619C9 /* Pods_FeelGoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E8C1B1BC46209A7957318 /* Pods_FeelGoodUITests.framework */; };
 		EBF5BAC6920F3AC6E8448EF1 /* Pods_FeelGood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05477E8BA2C2C552AE46E417 /* Pods_FeelGood.framework */; };
@@ -48,7 +50,6 @@
 		5220C0C92168F50500003703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5220C0CB2168F50500003703 /* ListOfThoughtsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfThoughtsVC.swift; sourceTree = "<group>"; };
 		5220C0D02168F50600003703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5220C0D32168F50600003703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5220C0D52168F50600003703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5220C0DA2168F50600003703 /* FeelGoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelGoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5220C0DE2168F50600003703 /* FeelGoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelGoodTests.swift; sourceTree = "<group>"; };
@@ -59,7 +60,10 @@
 		5220C0F72168FAF500003703 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Extensions.swift"; sourceTree = "<group>"; };
 		5220C0F92168FC4200003703 /* ThoughtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtCell.swift; sourceTree = "<group>"; };
 		5220C0FB2168FFD200003703 /* ListOfThoughtsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfThoughtsVM.swift; sourceTree = "<group>"; };
+		52A7E56221726CC800E0888C /* ThoughtVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtVM.swift; sourceTree = "<group>"; };
 		52D3671E216EC24000433468 /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
+		52D36720216EC66D00433468 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		52E97AD821700D0500154EB9 /* ThoughtDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtDetailVC.swift; sourceTree = "<group>"; };
 		8E96C1E2BE58B2B08E461459 /* Pods-FeelGoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelGoodTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelGoodTests/Pods-FeelGoodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		986E8C1B1BC46209A7957318 /* Pods_FeelGoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelGoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A240EA82F5AD1B47021EDFB6 /* Pods-FeelGoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelGoodUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelGoodUITests/Pods-FeelGoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,14 +135,13 @@
 			isa = PBXGroup;
 			children = (
 				5220C0C92168F50500003703 /* AppDelegate.swift */,
-				5220C0CB2168F50500003703 /* ListOfThoughtsVC.swift */,
-				5220C0FB2168FFD200003703 /* ListOfThoughtsVM.swift */,
-				5220C0F92168FC4200003703 /* ThoughtCell.swift */,
-				5220C0F72168FAF500003703 /* UIKit+Extensions.swift */,
+				52A7E55E21726A6C00E0888C /* Views */,
+				52A7E55F21726A7400E0888C /* ViewControllers */,
+				52A7E56021726A8000E0888C /* ViewModels */,
+				52A7E55D21726A5F00E0888C /* Model */,
+				52A7E56421726CE200E0888C /* Utilities */,
 				5220C0D02168F50600003703 /* Assets.xcassets */,
-				5220C0D22168F50600003703 /* LaunchScreen.storyboard */,
 				5220C0D52168F50600003703 /* Info.plist */,
-				52D3671E216EC24000433468 /* Thought.swift */,
 			);
 			path = FeelGood;
 			sourceTree = "<group>";
@@ -159,6 +162,49 @@
 				5220C0EB2168F50600003703 /* Info.plist */,
 			);
 			path = FeelGoodUITests;
+			sourceTree = "<group>";
+		};
+		52A7E55D21726A5F00E0888C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52D3671E216EC24000433468 /* Thought.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52A7E55E21726A6C00E0888C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5220C0F72168FAF500003703 /* UIKit+Extensions.swift */,
+				5220C0F92168FC4200003703 /* ThoughtCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52A7E55F21726A7400E0888C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5220C0CB2168F50500003703 /* ListOfThoughtsVC.swift */,
+				52E97AD821700D0500154EB9 /* ThoughtDetailVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52A7E56021726A8000E0888C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5220C0FB2168FFD200003703 /* ListOfThoughtsVM.swift */,
+				52A7E56221726CC800E0888C /* ThoughtVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52A7E56421726CE200E0888C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				52D36720216EC66D00433468 /* Defaults.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		76333407156DC1A8D039536F /* Pods */ = {
@@ -186,6 +232,7 @@
 				5220C0C32168F50500003703 /* Frameworks */,
 				5220C0C42168F50500003703 /* Resources */,
 				78AEB9FC80042F99447C9E30 /* [CP] Embed Pods Frameworks */,
+				52A7E56521726FE800E0888C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -282,7 +329,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5220C0D42168F50600003703 /* LaunchScreen.storyboard in Resources */,
 				5220C0D12168F50600003703 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +350,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		52A7E56521726FE800E0888C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		78AEB9FC80042F99447C9E30 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,6 +378,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-FeelGood/Pods-FeelGood-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Anchors/Anchors.framework",
 				"${BUILT_PRODUCTS_DIR}/DefaultsKit/DefaultsKit.framework",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-18/iOS/RevealServer.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -326,6 +390,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Anchors.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DefaultsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -409,12 +474,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A7E56321726CC800E0888C /* ThoughtVM.swift in Sources */,
 				5220C0CC2168F50500003703 /* ListOfThoughtsVC.swift in Sources */,
+				52D36721216EC66D00433468 /* Defaults.swift in Sources */,
 				5220C0FC2168FFD200003703 /* ListOfThoughtsVM.swift in Sources */,
 				5220C0CA2168F50500003703 /* AppDelegate.swift in Sources */,
 				52D3671F216EC24000433468 /* Thought.swift in Sources */,
 				5220C0F82168FAF500003703 /* UIKit+Extensions.swift in Sources */,
 				5220C0FA2168FC4200003703 /* ThoughtCell.swift in Sources */,
+				52E97AD921700D0500154EB9 /* ThoughtDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,17 +516,6 @@
 			targetProxy = 5220C0E62168F50600003703 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5220C0D22168F50600003703 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5220C0D32168F50600003703 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5220C0EC2168F50600003703 /* Debug */ = {
