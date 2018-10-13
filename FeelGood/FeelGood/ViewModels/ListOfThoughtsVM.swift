@@ -45,6 +45,6 @@ struct ListOfThoughtsVM {
                 print("Saving thoughts")
                 defaults.set(self.thoughts.value, for: thoughtsKey)
             })
-        .disposed(by: disposeBag)
+            .disposed(by: disposeBag)
     }
 }

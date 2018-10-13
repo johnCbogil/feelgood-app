@@ -9,9 +9,9 @@
 import Foundation
 
 struct Thought: Codable {
-    let text: String
+    let text: String?
 
-    init(withText text: String) {
+    init(withText text: String?) {
         self.text = text
     }
 }

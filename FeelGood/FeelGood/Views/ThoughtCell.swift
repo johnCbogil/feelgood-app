@@ -54,6 +54,10 @@ class ThoughtCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 
+    func configure(thought: Thought) {
+        self.textLabel?.text = thought.text
+    }
+
     private func setupBindings() {
 
         gestureRecognizer.rx.event.asDriver()

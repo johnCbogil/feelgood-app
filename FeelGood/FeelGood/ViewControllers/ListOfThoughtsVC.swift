@@ -49,8 +49,7 @@ class ListOfThoughtsVC: UIViewController {
         items
             .bind(to: tableView.rx.items(cellIdentifier: "ThoughtCell",
                                          cellType: ThoughtCell.self)) { (_, element, cell) in
-                cell.thoughtLabel.text = element.text
-                cell.countLabel.text = "7"
+                                            cell.configure(thought: element)
             }
             .disposed(by: disposeBag)
 
