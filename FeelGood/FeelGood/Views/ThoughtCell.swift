@@ -16,6 +16,7 @@ class ThoughtCell: UITableViewCell {
 
     // MARK: - Properties
     let disposeBag = DisposeBag()
+    var thought: Thought?
 
     // MARK: - Views
     lazy var thoughtLabel: UILabel = {
@@ -55,6 +56,7 @@ class ThoughtCell: UITableViewCell {
     }
 
     func configure(thought: Thought) {
+        self.thought = thought
         self.textLabel?.text = thought.text
     }
 
@@ -62,7 +64,7 @@ class ThoughtCell: UITableViewCell {
 
         gestureRecognizer.rx.event.asDriver()
             .drive(onNext: { _ in
-                print("hello")
+                self.thought?.thoughtCount += 1
             })
             .disposed(by: disposeBag)
     }

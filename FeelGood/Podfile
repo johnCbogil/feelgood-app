@@ -14,7 +14,7 @@ target 'FeelGood' do
   pod 'DefaultsKit'
   pod 'Reveal-SDK'
   pod 'SwiftLint'
-  
+
   target 'FeelGoodTests' do
     inherit! :search_paths
     # Pods for testing

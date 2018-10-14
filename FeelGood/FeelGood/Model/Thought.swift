@@ -7,9 +7,14 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
+import RxSwiftExt
+import RxOptional
 
 struct Thought: Codable {
     let text: String?
+    var thoughtCount = 0
 
     init(withText text: String?) {
         self.text = text
