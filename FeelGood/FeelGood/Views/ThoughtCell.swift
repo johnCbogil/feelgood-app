@@ -17,6 +17,7 @@ class ThoughtCell: UITableViewCell {
     // MARK: - Properties
     let disposeBag = DisposeBag()
     var thought: Thought?
+    let viewModel = ListOfThoughtsVM()
 
     // MARK: - Views
     lazy var thoughtLabel: UILabel = {
@@ -43,7 +44,6 @@ class ThoughtCell: UITableViewCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-
         self.addSubviews([thoughtLabel, countLabel])
         self.addGestureRecognizer(gestureRecognizer)
         activate(thoughtLabel.anchor.leading.constant(20),
@@ -61,10 +61,11 @@ class ThoughtCell: UITableViewCell {
     }
 
     private func setupBindings() {
-
         gestureRecognizer.rx.event.asDriver()
             .drive(onNext: { _ in
                 self.thought?.thoughtCount += 1
+                print("Increasing thought count: \(String(describing: self.thought?.thoughtCount))")
+                NotificationCenter.default.post(name: NSNotification.Name(rawValue: "saveThoughts"), object: nil, userInfo: nil)
             })
             .disposed(by: disposeBag)
     }

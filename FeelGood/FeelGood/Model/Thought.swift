@@ -12,7 +12,7 @@ import RxCocoa
 import RxSwiftExt
 import RxOptional
 
-struct Thought: Codable {
+class Thought: Codable {
     let text: String?
     var thoughtCount = 0
 

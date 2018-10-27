@@ -13,7 +13,7 @@ import RxSwiftExt
 import RxOptional
 import DefaultsKit
 
-struct ListOfThoughtsVM {
+class ListOfThoughtsVM {
     let disposeBag = DisposeBag()
 
     // MARK: - INPUTS
@@ -27,6 +27,17 @@ struct ListOfThoughtsVM {
         print("Fetching thoughts")
         guard let listOfThoughts = defaults.get(for: thoughtsKey) else { return }
         self.thoughts.accept(listOfThoughts)
+        setupNotificationObservers()
+    }
+
+    func setupNotificationObservers() {
+        NotificationCenter.default.addObserver(self, selector: #selector(saveThoughts),
+                                               name: NSNotification.Name(rawValue: "saveThoughts"), object: nil)
+    }
+
+    @objc func saveThoughts() {
+        print(self.thoughts.value)
+        defaults.set(self.thoughts.value, for: thoughtsKey)
     }
 
     func setupBindings() {
@@ -43,7 +54,7 @@ struct ListOfThoughtsVM {
             .filterEmpty()
             .subscribe(onNext: { _ in
                 print("Saving thoughts")
-                defaults.set(self.thoughts.value, for: thoughtsKey)
+                self.saveThoughts()
             })
             .disposed(by: disposeBag)
     }
