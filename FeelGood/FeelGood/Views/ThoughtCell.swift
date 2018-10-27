@@ -17,7 +17,6 @@ class ThoughtCell: UITableViewCell {
     // MARK: - Properties
     let disposeBag = DisposeBag()
     var thought: Thought?
-    let viewModel = ListOfThoughtsVM()
 
     // MARK: - Views
     lazy var thoughtLabel: UILabel = {
